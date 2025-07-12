@@ -28,7 +28,7 @@
 <head>
     <meta charset="UTF-8"> <!-- Define la codificación de caracteres para que soporte tildes y caracteres especiales -->
     <title>Artesanos</title> <!-- Define el título que aparecerá en la pestaña del navegador -->
-    <link rel="stylesheet" href="../styles/estyle.css"> <!-- Vincula el archivo de estilos CSS para aplicar diseño -->
+    <link rel="stylesheet" href="../styles/style.css"> <!-- Vincula el archivo de estilos CSS para aplicar diseño -->
 </head>
 <body> <!-- Inicio del cuerpo de la página -->
 
