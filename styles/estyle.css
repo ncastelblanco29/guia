@@ -1,0 +1,105 @@
+/* Global font */
+/* Estilo base para todos los archivos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+}
+
+body, h1, h2, h3, p, a, button {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Flex layout para filas de 3 y centrado */
+.row-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra incluso si hay solo 1 o 2 */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 320px; /* Más alta como solicitaste */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.card-text-des {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.button-card {
+    background-color: #8B3A3A;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-card:hover {
+    background-color: #702c2c;
+}
